@@ -32,6 +32,9 @@ body{
 
     
 }
+.navbar-toggler{
+  border: none;
+}
 
 .jumbotron{
     background-image: url(download.jpeg);
@@ -41,10 +44,12 @@ body{
     
     color: aliceblue;
     height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 .info{
     font-size: 70px;
+    font-weight: 600;
     
     margin: 10px 10PX 20PX;
     padding-top: 30px;
@@ -82,8 +87,8 @@ body{
 .abtme{
     margin: 20px;
     padding: 35px;
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 35px;
+    font-weight: 400;
     
 
 }
@@ -91,13 +96,14 @@ body{
     margin: 8px;
     padding: 10px;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .aboutme{
     margin: 20px;
     padding: 15px;
 }
 .card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: transform .2s;
 }
 .card:hover {
@@ -157,7 +163,9 @@ body {
 .contactme{
     font-size: 25px;
     font-weight: 500;
-    color: white;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    margin: 2px;
 }
 .button{
     text-decoration: none;
@@ -259,13 +267,83 @@ body {
   font-size:13px;
   margin-bottom:0;
 }
+#About{
+  padding: 15px;
+  margin: 5px;
+  font-size: 30px;
+  font-weight: 700;
+}
+#Projects{
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+  margin: 5px;
+}
+#Skills{
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+  margin: 5px;
+}
+#VEworks{
+  font-size: 30px;
+  font-weight: 700;
+  padding: 15px;
+  margin: 5px;
+}
+
+
 
 
  
 
+@media (max-width: 436px) {
 
 
-@media (min-width: 576px) {  }
+
+
+  .no-margin-mobile {
+      margin-left: 0 !important;
+      margin-right: 0 !important;        
+  }
+  .info{
+    font-size: 50px;
+  }
+  .line1{
+    font-size: 30px;
+  }
+  .line2{
+    font-size: 20px;
+  }
+  .button{
+    font-size: large;
+    
+  }
+  .btn{
+    padding: 8px;
+  }
+  .abtme{
+    margin: 4px;
+    font-size:22px;
+    font-weight: 400;
+  }
+  .whatupto{
+    margin: 5px;
+    font-size: 20px;
+  }
+  .card{
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+  }
+  .card:hover{
+    transform: none;
+    
+  }
+}
+
+@media (min-width: 576px) { 
+ }
 
 
 @media (min-width: 768px) {  }
